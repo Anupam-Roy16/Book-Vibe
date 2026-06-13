@@ -18,7 +18,7 @@ const Bookcard = ({book}) => {
               </div>
               <div className="card-body">
                 <h2 className="card-title text-2xl">{book.bookName}</h2>
-                <p className="font-semibold text-lg">By : {book.author}</p>
+                <p className="font-semibold text-lg">By: {book.author}</p>
                 <div className="card-actions justify-between">
                   <div className="text-lg font-semibold">{book.category}</div>
                   <div className="flex items-center gap-2 text-lg font-semibold">
