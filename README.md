@@ -1,43 +1,51 @@
-# React + Vite
+# 📚 Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly interactive, and responsive book management web application built with React 19 and Tailwind CSS v4. Users can easily browse books, manage their personal "Readlist" and "Wishlist", and dynamically sort them based on rating or page count.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+👉 **[Explore Book Vibe Live](https://sprightly-llama-7dfa43.netlify.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-<img width="470" height="614" alt="Screenshot 2026-06-02 182307" src="https://github.com/user-attachments/assets/d8fa4d60-f63b-4b8d-bd78-fc7c6609c177" />
+---
 
+## 📸 Project Preview
 
-
-<img width="54" height="583" alt="Screenshot 2026-06-02 182258" src="https://github.com/user-attachments/assets/7ef8ae0d-231d-4185-b052-c210185c5155" />
-
+<img width="800" height="451" alt="Recording2026-06-14100213aaaa-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/27ea5661-8a09-4bb3-81a7-debe61594a6d" />
 
 
+---
 
+## 🚀 Features
 
+- **Dynamic Data Fetching:** Efficiently fetches and renders book data dynamically from a local JSON dataset to generate interactive book cards.
+- **Dual-List Management (Readlist & Wishlist):** Allows users to categorize books into a "Readlist" (books already read) or a "Wishlist" (books planned to read) with absolute control.
+- **Interactive Tabbing System:** Separate, clean, and organized list views for both categories, allowing seamless switching without page reloads.
+- **Advanced Sorting Engine:** Features a smart dropdown sorting functionality allowing users to instantly sort listed books by **Ratings** or **Page Count**.
+- **Robust Route Management:** Implements conditional routing using React Router v7 to ensure a smooth user experience while navigating between details and lists.
+- **Responsive UI/UX:** Designed with a mobile-first approach using **Tailwind CSS v4** and **DaisyUI v5** for beautiful, modern components on all screen sizes.
 
+---
 
+## 🛠️ Tech Stack & Tools
 
+### Core Technologies
+![React](https://img.shields.io/badge/react-19.2.6-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361dafb)
+![Vite](https://img.shields.io/badge/vite-8.0.12-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-7.16.0-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
+### Styling & UI Components
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-4.3.0-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![daisyUI](https://img.shields.io/badge/daisyui-5.5.20-%235A0EF8.svg?style=for-the-badge&logo=daisyui&logoColor=white)
 
+### Dependencies Breakdown
+- **React 19 & Vite 8:** Powering the app with ultra-fast performance and hot module replacement.
+- **React Router v7:** Managing all sub-routes and dynamic paths cleanly.
+- **React Tabs & Toastify:** Delivering a smooth multi-tab experience with elegant user feedback via beautiful toast notifications.
+- **ESLint 10:** Enforcing code quality and best practices throughout development.
 
+---
 
+## 🧠 Challenges I Faced & What I Learned
 
-
-
-
-
-
-<img width="341" height="161" alt="Screenshot 2026-06-08 125040" src="https://github.com/user-attachments/assets/8ffe3396-60d0-4548-bfde-ef706fa46367" />
-<img width="1030" height="691" alt="Screenshot 2026-06-14 091632" src="https://github.com/user-attachments/assets/943579cb-1f49-40f5-877a-a342892c42fc" />
-
-
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Spent hours debugging how to properly sync the `LocalStorage` data with the React state for the tab views so that lists persist upon page reloads.
+- Learned how Tailwind v4 operates differently with Vite (using the new `@tailwindcss/vite` plugin) compared to older versions.
+- Gained a solid understanding of managing conditional component rendering and building robust sorting algorithms in JavaScript.
