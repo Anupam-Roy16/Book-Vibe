@@ -6,6 +6,33 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="470" height="614" alt="Screenshot 2026-06-02 182307" src="https://github.com/user-attachments/assets/d8fa4d60-f63b-4b8d-bd78-fc7c6609c177" />
+
+
+
+<img width="54" height="583" alt="Screenshot 2026-06-02 182258" src="https://github.com/user-attachments/assets/7ef8ae0d-231d-4185-b052-c210185c5155" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="341" height="161" alt="Screenshot 2026-06-08 125040" src="https://github.com/user-attachments/assets/8ffe3396-60d0-4548-bfde-ef706fa46367" />
+<img width="1030" height="691" alt="Screenshot 2026-06-14 091632" src="https://github.com/user-attachments/assets/943579cb-1f49-40f5-877a-a342892c42fc" />
+
+
 
 ## React Compiler
 
